@@ -160,9 +160,20 @@
     Make the email author and the email subject take 35% of the width of the parent element.
     Make the check, the date and the size take up 8% of the width of the parent element.
     This will arrange the details in visible columns. */
+    .email-name, .email-subject {
+      width: 35%;
+
+    }
+
+    .email-check, .email-date, .email-size {
+      width: 8%;
+    }
 
     /* 👉 Task 15- Target the second email and have its font weight be bold.
     This will make it look "unread". */
+    .email:nth-child(2) {
+      font-weight: bold;
+    }
 
     /* Well done! Check the design file to make sure you are close enough. */
 
